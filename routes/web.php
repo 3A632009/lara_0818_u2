@@ -21,3 +21,5 @@ Route::get('home',function(){
 
 Route::get('hello/{name?}',['as'=>'hello.index','uses'=> 'HelloController@index']);
 
+
+
